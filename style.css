@@ -1,0 +1,54 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #212121;
+}
+
+h5 {
+  margin: 10px 0px;
+}
+
+p {
+  color: gray;
+  margin: 5px 0px;
+}
+
+.card {
+  width: 300px;
+  height: fit-content;
+}
+
+#thumbnail {
+  width: 100%;
+  height: fit-content;
+}
+
+#channel {
+  height: 50px;
+  padding-top: 10px;
+}
+
+.channel-container {
+  display: flex;
+  gap: 20px;
+}
+
+#title {
+  font-size: medium;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#channelName {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
