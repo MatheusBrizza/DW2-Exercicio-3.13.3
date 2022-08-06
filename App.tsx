@@ -20,7 +20,7 @@ function Card() {
         <div className="description">
           <h5 id="title">Adão Negro - Teaser Trailer</h5>
           <p id="channelName">DC Films</p>
-          <p id="visual">0 visualisações</p>
+          <p id="visual">0 visualizações</p>
         </div>
       </div>
     </div>
