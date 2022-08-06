@@ -33,7 +33,7 @@ p {
 }
 
 #channel {
-  height: 50px;
+  height: 45px;
   padding-top: 10px;
 }
 
@@ -51,4 +51,10 @@ p {
 #channelName {
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    width: 450px;
+  }
 }

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './style.css';
 
-export default function App() {
+function Card() {
   return (
     <div className="card">
       <img
@@ -25,4 +25,9 @@ export default function App() {
       </div>
     </div>
   );
+}
+
+export default function App() {
+  const cards = new Array(10).fill('');
+  return cards.map((cards) => <Card />);
 }
