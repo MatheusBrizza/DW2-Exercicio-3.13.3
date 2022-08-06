@@ -28,6 +28,12 @@ function Card() {
 }
 
 export default function App() {
-  const cards = new Array(10).fill('');
-  return cards.map((cards) => <Card />);
+  const cards = new Array(12).fill('');
+  return (
+    <div className="root">
+      {cards.map(() => (
+        <Card />
+      ))}
+    </div>
+  );
 }

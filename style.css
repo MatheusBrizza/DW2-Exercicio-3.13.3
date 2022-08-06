@@ -53,8 +53,22 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Resolução Desktop */
 @media screen and (min-width: 500px) {
   .card {
-    width: 450px;
+    width: 325px;
   }
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: 350px;
+  }
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
